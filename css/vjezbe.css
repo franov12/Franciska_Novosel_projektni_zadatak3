@@ -1,0 +1,86 @@
+
+h3{
+	font-size: 25px;
+}
+h2{
+	font-size: 30px;
+}
+p, li {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+h1, h2{
+	text-align: center;
+	width: 100%;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float: left;
+	color:white;
+}
+a:hover{
+	transform: scale(1.3);
+}
+nav{
+	margin-left: 28%;
+	margin-right: 29%;
+}
+fieldset, a{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+p{
+	padding-top:50px;
+	padding-right:50px;
+	padding-left:50px;
+	text-align: justify;
+}
+.ikona{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: left;
+	padding-left: 230px;
+}
+img{
+	width: 400px;
+	height: 500px;
+	padding: 30px;
+}
+figure{
+	font-size: 25px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+@font-face {
+	font-family: FranciskaNovosel;
+	src: url(../multimediji/FranciskaNovosel.ttf);
+}
+h1 {
+	font-family: FranciskaNovosel, sans-serif;
+}
+.p9, .a9{
+	font-size: 25px;
+}
+.a9{
+	text-decoration: dashed;
+	text-decoration: underline;
+}
+.prazno{
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+
