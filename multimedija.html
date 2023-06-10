@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Multimedija</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/multimedija.css" type="text/css">
+	<style>
+body {
+	color: white;
+	background-image: url('pozadina.jpg');		
+}
+</style>
+</head>
+<main>
+    <header>
+        <h1>Franciska Novosel</h1>
+        <h2>MULTIMEDIJA</h2>
+        <nav>
+            <a href="./index.html"><img class="ikona" title="POčETNA" src="./multimediji/ikonapocetna.png"></a>
+            <ul><fieldset>
+                <li class="navli"><a href="https://moodle.srce.hr/2022-2023/?redirect=0">MERLIN 2023</a></li>
+                <li class="navli"><a href="./multimedija.html">MULTIMEDIJA</a></li>
+                <li class="navli"><a href="https://moodle.srce.hr/2022-2023/pluginfile.php/8332310/mod_page/content/5/10_vje%C5%BEba_HTML.pdf">PDF</a></li>
+				<li class="navli"><a href="./o_meni.html">O MENI</a></li>
+				<li class="navli"><a href="./vjezbe.html">VJEŽBE</a></li>
+				<li class="navli"><a href="./video.html">VIDEO</a></li>
+            </fieldset></ul>
+        </nav>
+    </header>
+    <body>
+        <div>
+            <h3>Slike</h3>
+            <img src="./multimediji/slika3.jpg" width="432" height="576">
+            <img src="./multimediji/slika4.jpg" width="432" height="576">
+            <img src="./multimediji/slika5.jpg" width="432" height="576">
+        </div>
+        <div class="div1">
+            <h3 class="h3centar">Video</h3>
+            <video id="vjezba9" width="432" height="350" controls><br>
+                <source  src="./multimediji/vježba9_01.mp4" type="video/mp4"><br>
+            </video>
+        </div>
+        <div class="div2">
+            <h3 class="h3centar">Video s YouTube-a</h3>
+            <iframe  width="432" height="320" src="https://www.youtube.com/embed/vlVSJ0AvZe0"
+                title="YouTube video player"  
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe><br>
+        </div>
+        <div class="div3">
+            <h3 class="h3centar">Zvuk</h3>
+            <audio controls>
+                <source src="./multimediji/zvuk1.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </body>
+</main>
+</html>
